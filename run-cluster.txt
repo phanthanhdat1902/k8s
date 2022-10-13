@@ -1,0 +1,5 @@
+kubeadm init --apiserver-advertise-address=192.168.1.1 --pod-network-cidr=172.10.0.0/16
+kubeadm token create --print-join-command
+kubeadm reset
+kubectl config delete-cluster kubernetes
+kubectl config delete-context kubernetes-admin@kubernetes
