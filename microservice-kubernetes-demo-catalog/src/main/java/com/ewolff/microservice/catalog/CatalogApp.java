@@ -26,6 +26,7 @@ public class CatalogApp {
 		itemRepository.save(new Item("iPod touch", 21.0));
 		itemRepository.save(new Item("iPod nano", 1.0));
 		itemRepository.save(new Item("Apple TV", 100.0));
+		itemRepository.save(new Item("Iphone 15", 1000.0));
 	}
 
 	public static void main(String[] args) {
